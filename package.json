@@ -5,7 +5,7 @@
   "description": "Portfolio using React",
   "scripts": {
     "start": "parcel ./public/index.html",
-    "predeploy": "parcel build ./public/index.html --public-url /portfolio-jadid/",
+    "predeploy": "parcel build ./public/index.html --public-url http://FahimJadid.github.io/portfolio-jadid",
     "deploy": "gh-pages -d dist"
   },
   "browserslist": {
