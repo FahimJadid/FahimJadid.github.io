@@ -5,7 +5,7 @@
   "description": "Portfolio using React",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html",
+    "build": "parcel build public/index.html --no-source-maps --public-url ./",
     "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
   },
   "browserslist": {
