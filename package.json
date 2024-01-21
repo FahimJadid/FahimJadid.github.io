@@ -1,5 +1,4 @@
 {
-  "homepage": "https://FahimJadid.github.io/my-portfolio",
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "Portfolio using React",
@@ -8,6 +7,7 @@
     "build": "parcel build public/index.html --no-source-maps --public-url /my-portfolio/",
     "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
   },
+  "homepage": "https://FahimJadid.github.io/my-portfolio",
   "browserslist": {
     "production": [
       ">0.2%",
