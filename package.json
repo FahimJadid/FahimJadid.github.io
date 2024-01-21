@@ -1,13 +1,12 @@
 {
-  "homepage": "http://FahimJadid.github.io",
-  "name": "portfolio-jadid",
+  "homepage": "https://FahimJadid.github.io/my-portfolio",
+  "name": "my-portfolio",
   "version": "1.0.0",
   "description": "Portfolio using React",
   "scripts": {
-    "start": "parcel serve public/index.html",
+    "start": "parcel public/index.html",
     "build": "parcel build public/index.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "rm -rf dist/ && npm build && gh-pages -d dist"
   },
   "browserslist": {
     "production": [
