@@ -23,7 +23,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/my-portfolio" element={<Homepage />} />
+        {/* <Route exact path="/my-portfolio" element={<Homepage />} /> */}
+        <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/articles" element={<Articles />} />
