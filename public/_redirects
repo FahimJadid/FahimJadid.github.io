@@ -1,0 +1,14 @@
+# _redirects
+
+# Redirects for client-side routing in React
+/*    /index.html   200
+
+# Redirects for specific routes
+/about/*    /about/index.html   200
+/projects/*    /projects/index.html   200
+/articles/*    /articles/index.html   200
+/article/*    /index.html   200
+/contact/*    /contact/index.html   200
+
+# 404 Redirect
+/*    /404/index.html   404
